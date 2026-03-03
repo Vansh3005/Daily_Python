@@ -15,11 +15,8 @@ print("Max value in list:",max(values))
 print("Min value in list:",min(values))
 
 # Reverse list without using reverse()
-print("The reverse of list is:")
-for i in range(len(values)-1,-1,-1):  # len(values)-1,-1,-1
-    rev = values[i]                              # start,stop,move
-    print(rev)
-
+print("The reverse of list is:",values[::-1])
+     
 # Check if Number Exists in List
 check = int(input("Check no. is present in list or not:"))
 if check in values:
