@@ -30,4 +30,4 @@ for i in range(len(list2)-1):
     list2[i] = list2[i+1]
 list2[-1]=start
 print("Left Rotate list:",list2)
-  
+
